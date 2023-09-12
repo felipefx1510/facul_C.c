@@ -24,7 +24,6 @@ int main(){
   printf("Este é o valor total: R$ %.2f\n", fim);
 
   printf("Este é o valor que cada um irá pagar com a taxa do garçom: R$ %.2f\n", fimp);
-
   printf("Este é o valor que cada um irá pagar sem a taxa do garçom; R$ %.2f\n", fimstx);
 
 }
