@@ -1,0 +1,22 @@
+1.  Verificação de número positivo/negativo:
+    Escreva um programa que solicite ao usuário um número inteiro e, em seguida, exiba se o número é positivo, negativo ou zero.
+
+2.  Maior de três números:
+    Crie um programa que solicite três números inteiros ao usuário e determine qual deles é o maior.
+
+3.  Calculadora simples:
+    Crie uma calculadora simples que solicita ao usuário dois números e uma operação (adição, subtração, multiplicação ou divisão). Em seguida, exiba o resultado da operação.
+
+4.  Determinar o tipo de triângulo:
+    Escreva um programa que peça ao usuário para inserir os comprimentos dos lados de um triângulo e determine se é um triângulo equilátero, isósceles ou escaleno.
+
+5.  Verificação de ano bissexto:
+    Crie um programa que verifique se um ano inserido pelo usuário é bissexto ou não. Um ano bissexto é aquele que é divisível por 4, exceto por anos que também sejam divisíveis por 100, a menos que sejam divisíveis por 400.
+
+6.  Verificação de idade para votação:
+    Solicite a idade do usuário e determine se ele/ela é elegível para votar (idade igual ou superior a 18 anos) ou não.
+
+7.  Verificação de número primo:
+    Escreva um programa que solicite ao usuário um número inteiro e determine se ele é primo ou não. Um número primo é aquele que é divisível apenas por 1 e por ele mesmo.
+
+8.  

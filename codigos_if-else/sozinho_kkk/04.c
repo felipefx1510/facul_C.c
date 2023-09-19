@@ -9,7 +9,7 @@ int main()
 
     float n1, n2, n3;
 
-    printf("Olá, digite as medidas do triângulo separadamente por espaço:");
+    printf("Olá, digite as medidas do triângulo separadamente por espaço:\n");
     scanf("%f %f %f", &n1, &n2, &n3); // descobri que posso fazer assim
 
     if (n1 == n2 && n1 == n3)
