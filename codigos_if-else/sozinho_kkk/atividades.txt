@@ -19,4 +19,11 @@
 7.  Verificação de número primo:
     Escreva um programa que solicite ao usuário um número inteiro e determine se ele é primo ou não. Um número primo é aquele que é divisível apenas por 1 e por ele mesmo.
 
-8.  
+8.  Cálculo de Desconto:
+    Crie um programa que solicite ao usuário o preço de um produto e, com base no preço, aplique um desconto de 10% se o preço for maior que 100 reais e nenhum desconto se for igual ou menor que 100 reais.
+
+9.  Verificar se é Vogal ou Consoante:
+    Solicite ao usuário para inserir uma letra e determine se é uma vogal ou consoante.
+
+10. Conversão de Temperatura:
+    Crie um programa que permita ao usuário converter uma temperatura de Celsius para Fahrenheit ou vice-versa, com base na escolha do usuário.
