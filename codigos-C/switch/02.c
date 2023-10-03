@@ -16,16 +16,27 @@ int main()
 
     switch (unidadei)
     {
-        case 1:
-            printf("Ok, e qual é a unidade de destino?");
+        case 1: // metros
+            printf("Ok, e qual é a unidade de destino?\n"); // selecao principal
+            printf("1. Centímetros\n2. Polegadas\n");
             scanf("%i", &unidadef);
             switch (unidadef)
             {
-            case 1:
-                /* code */
+            case 1: // metros para centimetros
+                printf("Digite o valor a ser convertido:\n");
+                scanf("%f", &valor);
+                conversao = valor * 100;
+                printf("%.2f metros convertido para centímetros é: %.2f", valor, conversao);
                 break;
+
+            case 2: // metros para polegadas
+                printf("Digite o valor a ser convertido:\n");
+                scanf("%f", &valor);
+                conversao = valor * 39.37;
+                printf("%.2f metros convertido para polegadas é: %.2f", valor, conversao);
             
             default:
+                printf("Seleção inválida. Tente novamente!");
                 break;
             }
 
