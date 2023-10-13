@@ -17,7 +17,7 @@ int main()
     switch (unidadei)
     {
         case 1: // metros
-            printf("Ok, e qual é a unidade de destino?\n"); // selecao principal
+            printf("Ok, e qual é a unidade de destino?\n"); // seleção principal
             printf("1. Centímetros\n2. Polegadas\n");
             scanf("%i", &unidadef);
             switch (unidadef)
@@ -63,7 +63,7 @@ int main()
                     break;
 
                 default:
-                    printf("Seleção inválida. Tente novamente!");
+                    printf("Seleçãoo inválida. Tente novamente!");
                     break;
             }
             break;
