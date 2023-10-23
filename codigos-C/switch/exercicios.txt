@@ -1,0 +1,26 @@
+Exercício 1: Dia da semana
+Escreva um programa que solicita ao usuário um número de 1 a 7 e, em seguida, use um switch para exibir o dia da semana correspondente.
+
+Exercício 2: Calculadora simples
+Crie um programa de calculadora simples que solicita ao usuário dois números e um operador (+, -, *, /) e, em seguida, use um switch para 
+realizar a operação desejada e exibir o resultado.
+
+Exercício 3: Verificação de mês
+
+Escreva um programa que solicita ao usuário um número de mês (1 a 12) e use um switch para exibir o nome do mês correspondente. Certifique-se de 
+incluir mensagens de erro para valores fora do intervalo.
+
+Exercício 4: Conversor de unidades
+Crie um programa que permita ao usuário escolher uma unidade de medida (por exemplo, metros, quilômetros, centímetros) e converta uma quantidade 
+dada dessa unidade para outra unidade. Use um switch para lidar com as diferentes unidades de medida.
+
+Exercício 5: Verificação de vogal
+Escreva um programa que solicita ao usuário uma letra do alfabeto e use um switch para verificar se a letra é uma vogal (a, e, i, o, u) 
+ou uma consoante.
+
+Exercício 6: Determinando a estação do ano
+Crie um programa que solicita ao usuário um mês (1 a 12) e use um switch para determinar a estação do ano com base no mês informado.
+
+Exercício 7: Escolha do menu
+Desenvolva um menu interativo com várias opções (por exemplo, opções de um jogo, aplicativo, etc.) e use um switch para lidar com as escolhas do 
+usuário e executar a ação correspondente.
