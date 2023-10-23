@@ -19,9 +19,4 @@ int main ()
   total = (vc*meses)+valor;
   printf("Obrigado pelas informações, este será o valor que você pagará no final:%.2f\n", total);
 
-
-
-
-
-
 }
