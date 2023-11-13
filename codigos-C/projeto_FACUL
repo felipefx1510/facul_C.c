@@ -1,0 +1,63 @@
+#include <stdio.h>
+#include <string.h>
+#include <locale.h>
+
+
+int validarLogin(char* nome, char* senha) {
+
+    if (strcmp(nome, "mistoquente") == 0 && strcmp(senha, "batatafrita123") == 0) {
+        return 1; // para válido
+    } else {
+        return 0; // para inválido
+    }
+}
+
+int main() {
+    setlocale(LC_ALL, "Portuguese_Brazil");
+
+    int funcao;
+    int loginBemSucedido = 0;
+
+    while (1) {
+        // Menu
+        printf("Selecione uma opção:\n");
+        printf("1. Entrar\n");
+        printf("2. Sair\n");
+        scanf("%d", &funcao);
+
+        switch (funcao) {
+            case 1:
+                // Loop para solicitar as credenciais até que sejam inseridas corretamente
+                while (!loginBemSucedido) {
+                    // Receber credenciais do usuário
+                    char nomeDigitado[50];
+                    char senhaDigitada[50];
+
+                    printf("Digite seu nome de usuário: ");
+                    scanf("%s", nomeDigitado);
+
+                    printf("Digite sua senha: ");
+                    scanf("%s", senhaDigitada);
+
+                    // Validar o login
+                    if (validarLogin(nomeDigitado, senhaDigitada)) {
+                        printf("Login bem-sucedido!\n");
+                        loginBemSucedido = 1; // Definir a flag como verdadeira para sair do loop
+                    } else {
+                        printf("Login falhou. Credenciais inválidas. Tente novamente.\n");
+                    }
+                }
+                break;
+
+            case 2:
+                printf("Saindo do programa.\n");
+                return 0; // Encerra o programa
+                break;
+
+            default:
+                printf("Opção inválida. Tente novamente.\n");
+        }
+    }
+
+    return 0;
+}
